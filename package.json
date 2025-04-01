@@ -1,0 +1,32 @@
+{
+  "name": "hono-router",
+  "version": "1.0.0",
+  "description": "addons for file base routing in hono",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/bouaraba-khalil/hono-router",
+  "bugs": {
+    "url": "https://github.com/bouaraba-khalil/hono-router/issues"
+  },
+  "author": "Khalil <bouaraba.khalil@gmail.com> ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bouaraba-khalil/hono-router.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}

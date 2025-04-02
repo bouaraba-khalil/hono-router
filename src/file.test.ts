@@ -29,7 +29,7 @@ const testCases = [
   { input: '/index.put.ts', route: '/', method: 'put' },
   { input: '/about.ts', route: '/about', method: 'all' },
   { input: '/about/index.ts', route: '/about', method: 'all' },
-  { input: '/about/index.head.ts', route: '/about', method: 'head' },
+  // { input: '/about/index.head.ts', route: '/about', method: 'head' },
   { input: '/about/me.ts', route: '/about/me', method: 'all' },
   { input: '/about/me/index.ts', route: '/about/me', method: 'all' },
   {

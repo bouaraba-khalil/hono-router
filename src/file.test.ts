@@ -30,7 +30,7 @@ const testCases = [
   { input: '/about.ts', route: '/about', method: 'all' },
   { input: '/about/index.ts', route: '/about', method: 'all' },
   { input: '/about/index.head.ts', route: '/about', method: 'head' },
-  { input: '/about/me', route: '/about/me', method: 'all' },
+  { input: '/about/me.ts', route: '/about/me', method: 'all' },
   { input: '/about/me/index.ts', route: '/about/me', method: 'all' },
   {
     input: '/about/me/index.options.ts',
@@ -73,7 +73,7 @@ const testCases = [
     method: 'put',
   },
   {
-    input: '/about/[arg1]/[arg2]',
+    input: '/about/[arg1]/[arg2].ts',
     route: '/about/:arg1/:arg2',
     method: 'all',
   },

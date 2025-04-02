@@ -3,6 +3,8 @@ import { getFiles } from './path';
 import { filePathToMethod, filePathToPath } from './file';
 import { join } from 'path';
 
+// if anyone have an idea how to create a test for this file
+// feel free to contribute
 export default async function loadRoute(dir: string = 'src/router') {
   const router = new Hono();
 

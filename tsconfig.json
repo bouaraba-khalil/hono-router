@@ -19,5 +19,6 @@
     "module": "Preserve",
     "lib": ["es2022"],
     "noEmit": true
-  }
+  },
+  "exclude": ["example/**"]
 }
